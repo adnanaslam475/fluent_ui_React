@@ -118,10 +118,10 @@ const overflowProps: IButtonProps = {
 export const SiteCommandBar: React.FunctionComponent = () => {
   return (
     <CommandBar
-      items={_items}
-      overflowItems={_overflowItems}
+      items={[]}
+      // overflowItems={_overflowItems}
       overflowButtonProps={overflowProps}
-      farItems={_farItems}
+      farItems={[]}
       ariaLabel="Use left and right arrow keys to navigate between commands"
     />
   );
