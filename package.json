@@ -1,7 +1,6 @@
 {
   "name": "react-fluentui",
-  "version": "0.4.1",
-  "homepage": "http://andrericardo.github.io/react-fluentui",
+  "version": "0.0.1",
   "private": true,
   "type": "module",
   "dependencies": {

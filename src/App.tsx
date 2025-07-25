@@ -45,7 +45,7 @@ export const App: React.FunctionComponent = () => {
       }}
     >
       <Header />
-      {isMessageShown && <MessageBox resetChoice={resetChoice} />}
+      {/* {isMessageShown && <MessageBox resetChoice={resetChoice} />} */}
       <Site />
     </Stack>
   );

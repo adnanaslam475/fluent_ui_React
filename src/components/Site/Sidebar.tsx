@@ -16,20 +16,20 @@ const navStyles: Partial<INavStyles> = {
 const navLinkGroups: INavLinkGroup[] = [
   {
     links: [
-      {
-        name: "Title",
-        url: "",
-        icon: "StatusCircleRing",
-        key: "title1",
-        target: "_blank",
-      },
-      {
-        name: "Title",
-        url: "",
-        icon: "StatusCircleRing",
-        key: "title2",
-        target: "_blank",
-      },
+      // {
+      //   name: "Title",
+      //   url: "",
+      //   icon: "StatusCircleRing",
+      //   key: "title1",
+      //   target: "_blank",
+      // },
+      // {
+      //   name: "Title",
+      //   url: "",
+      //   icon: "StatusCircleRing",
+      //   key: "title2",
+      //   target: "_blank",
+      // },
       {
         name: "Title",
         url: "",
@@ -73,42 +73,42 @@ const navLinkGroups: INavLinkGroup[] = [
         ],
         isExpanded: true,
       },
-      {
-        name: "Title",
-        url: "",
-        key: "keyLowerTitle1",
-        target: "_blank",
-      },
-      {
-        name: "Title",
-        url: "",
-        key: "keyLowerTitle2",
-        target: "_blank",
-      },
-      {
-        name: "Title",
-        url: "",
-        key: "keyLowerTitle3",
-        target: "_blank",
-      },
-      {
-        name: "Title",
-        url: "",
-        key: "keyLowerTitle4",
-        target: "_blank",
-      },
-      {
-        name: "Title",
-        url: "",
-        key: "keyLowerTitle5",
-        target: "_blank",
-      },
-      {
-        name: "Title",
-        url: "",
-        key: "keyLowerTitle6",
-        target: "_blank",
-      },
+      // {
+      //   name: "Title",
+      //   url: "",
+      //   key: "keyLowerTitle1",
+      //   target: "_blank",
+      // },
+      // {
+      //   name: "Title",
+      //   url: "",
+      //   key: "keyLowerTitle2",
+      //   target: "_blank",
+      // },
+      // {
+      //   name: "Title",
+      //   url: "",
+      //   key: "keyLowerTitle3",
+      //   target: "_blank",
+      // },
+      // {
+      //   name: "Title",
+      //   url: "",
+      //   key: "keyLowerTitle4",
+      //   target: "_blank",
+      // },
+      // {
+      //   name: "Title",
+      //   url: "",
+      //   key: "keyLowerTitle5",
+      //   target: "_blank",
+      // },
+      // {
+      //   name: "Title",
+      //   url: "",
+      //   key: "keyLowerTitle6",
+      //   target: "_blank",
+      // },
     ],
   },
 ];

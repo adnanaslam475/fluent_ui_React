@@ -12,8 +12,9 @@ import {
   PersonaPresence,
   PersonaSize,
 } from "@fluentui/react";
-import framelogo from "../Framelogo.svg";
-import personaImage from "../img/048persona-image.png";
+// src/Framelogo.png
+import framelogo from "./Framelogo.svg";
+import personaImage from './048persona-image.png';
 
 const examplePersona: IPersonaSharedProps = {
   imageUrl: personaImage,
@@ -43,7 +44,7 @@ export const Header: React.FunctionComponent = () => {
       }}
     >
       <Stack.Item grow={3}>
-        <Link href="https://github.com/andrericardo/react-fluentui">
+        <Link href="#">
           <Stack horizontal wrap={false} verticalAlign="center">
             <Image src={framelogo} alt="product logo" />
             <Text
@@ -57,7 +58,7 @@ export const Header: React.FunctionComponent = () => {
               nowrap
               block
             >
-              Product name
+              Fluent UI React
             </Text>
           </Stack>
         </Link>

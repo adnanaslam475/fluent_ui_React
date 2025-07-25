@@ -14,13 +14,10 @@ import { DetailsListDocumentsExample } from "./DetailsListDocumentsExample";
 
 const numericalSpacingStackTokens: IStackTokens = {
   childrenGap: 10,
-  // Set some padding vertically and horizontally
   padding: "l1 l2", // https://github.com/microsoft/fluentui/blob/dab45a2afe609709735b9b6e604a1af40d50e809/packages/react/src/components/Stack/StackUtils.test.ts#L103-L104
 };
 
 const itemsWithHref: IBreadcrumbItem[] = [
-  // Normally each breadcrumb would have a unique href, but to make the navigation less disruptive
-  // in the example, it uses the breadcrumb page as the href for all the items
   {
     text: "Level title",
     key: "t1",
@@ -55,13 +52,13 @@ export const PageContent: React.FunctionComponent = () => {
       }}
     >
       <Stack>
-        <Stack.Item>
+        {/* <Stack.Item>
           <Breadcrumb
             items={itemsWithHref}
             ariaLabel="Breadcrumb with items rendered as links"
             overflowAriaLabel="More links"
           />
-        </Stack.Item>
+        </Stack.Item> */}
         <Stack.Item>
           <Pivot
             aria-label="Basic Pivot Example"
@@ -73,7 +70,7 @@ export const PageContent: React.FunctionComponent = () => {
             }}
           >
             <PivotItem
-              headerText="Tab"
+              headerText=""
               headerButtonProps={{
                 "data-order": 1,
                 "data-title": "Tab Title",
@@ -81,12 +78,12 @@ export const PageContent: React.FunctionComponent = () => {
             >
               <DetailsListDocumentsExample />
             </PivotItem>
-            <PivotItem headerText="Tab">
+            {/* <PivotItem headerText="Tab">
               <Label styles={labelStyles}>Pivot #2</Label>
             </PivotItem>
             <PivotItem headerText="Tab">
               <Label styles={labelStyles}>Pivot #3</Label>
-            </PivotItem>
+            </PivotItem> */}
           </Pivot>
         </Stack.Item>
       </Stack>
